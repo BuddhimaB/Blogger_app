@@ -1,0 +1,15 @@
+
+$color: #b9e;
+
+.app {
+    .container {
+        //LOGIN & REGISTER
+        .auth {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color;
+            height: 100vh;
+        }
+    }
+}
