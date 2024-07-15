@@ -1,0 +1,58 @@
+
+$color: #b9e7e7;
+
+.app {
+    height: 100vh;
+    .container {
+        height: 100%;
+        //LOGIN & REGISTER
+        .auth {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $color;
+            height: 100%;
+
+            h1 {
+                font-size: 2rem;
+                color: teal;
+                margin-bottom: 1rem;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                gap: 20px;
+                padding: 10px;
+                width: 200px;
+                
+                input {
+                    padding: 10px;
+                    border: none;
+                    border-bottom: 1px solid teal;
+                }
+                button {
+                   padding: 10px;
+                    border: none;
+                    background-color: teal;
+                    color: white;
+                    cursor: pointer;
+                    width: 95%;
+                }
+                p{
+                    font-size: 15px;
+                    
+                    text-align: center;
+                }
+                span{
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+            
+        }
+    }
+}

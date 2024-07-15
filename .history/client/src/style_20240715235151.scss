@@ -1,0 +1,28 @@
+
+$color: #b9e7e7;
+
+.app {
+    height: 100vh;
+    .container {
+        height: 100%;
+        //LOGIN & REGISTER
+        .auth {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $color;
+            height: 100%;
+
+            .h1 {
+                font-size: 2rem;
+                color: teal;
+                margin-bottom: 1rem;
+            }
+            form{
+                
+            }
+            
+        }
+    }
+}
